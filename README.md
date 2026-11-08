@@ -21,8 +21,8 @@ La CLI di Ollama consente di scaricare, arrestare e rimuovere i modelli linguist
 Per scaricare e aggiungere un modello al tuo catalogo locale (operazione di *pulling*), apri il terminale di Kali ed esegui il comando `run` o `pull`.
 
 ```bash
-# Sincronizza ed esegui il re della precisione logica sul codice (32B - Consigliato)
-ollama run qwen2.5-coder:32b
+# Modello consigliato per nvidia 5070 ti 16 gb VRAM
+ollama run devstral:24b
 
 # Sincronizza ed esegui la variante intermedia più leggera (14B)
 ollama run qwen2.5-coder:14b
