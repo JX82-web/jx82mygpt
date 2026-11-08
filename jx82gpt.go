@@ -51,7 +51,7 @@ var globalServerAddr string
 func main() {
 	log.SetFlags(0)
 
-	modelFlag := flag.String("m", "qwen2.5-coder:14b", "Modello Ollama da utilizzare")
+	modelFlag := flag.String("m", "devstral:24b", "Modello Ollama da utilizzare")
 	interactiveFlag := flag.Bool("i", false, "Avvia in modalità shell interattiva")
 	serverFlag := flag.String("s", "", "Indirizzo del server HexStrike (es: 127.0.0.1:8080)")
 
@@ -61,7 +61,7 @@ func main() {
 		fmt.Printf("%sOPZIONI:%s\n", Bold, Reset)
 		fmt.Printf("  -i        Abilita la modalità interattiva continua\n")
 		fmt.Printf("  -s string Connette al server HexStrike (es. -s 127.0.0.1:8080)\n")
-		fmt.Printf("  -m string Cambia il modello (Default: qwen2.5-coder:14b)\n")
+		fmt.Printf("  -m string Cambia il modello (Default: devstral:24b)\n")
 		fmt.Printf("  -h        Mostra questa guida\n\n")
 		os.Exit(0)
 	}
