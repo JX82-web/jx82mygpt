@@ -20,11 +20,13 @@ La CLI di Ollama consente di scaricare, arrestare e rimuovere i modelli linguist
 ### 📥 Installazione di un Modello tramite Ollama
 Per scaricare e aggiungere un modello al tuo catalogo locale (operazione di *pulling*), apri il terminale di Kali ed esegui il comando `run` o `pull`.
 <details>
-   <summary>📒 Se vuoi cambiare modello di AI direttamente nel codice: (click to expand) </summary>
+   <summary>📒 Se vuoi cambiare modello di AI direttamente nel codice: 📒 (click to expand) </summary>
 
 + Nel codice sorgente (jx82gpt.go) scorri fino alla funzione main `func main()`
 + trova la stringa `modelFlag := flag.String("m", "devstral:24", "Modello Ollama da utilizzare")`
-+ Iserisci il modello da te scelto con `ollama` , flag.String("m", "Inserisci qui il modello da te scelto", "Modello Ollama da utilizzare")
++ Iserisci il modello da te scelto con `ollama` , flag.String("m", "Inserisci qui  il nuovo modello", "Modello Ollama da utilizzare")
++ Di Default esce con devstral:24b, installabile tramite  comando da terminale `ollama run (Default: devstral:24b`
++ Aspetta che il modello sia scaricato, attendi 20 secondi dopo la sua installazione
 + Salva e compila con `go build -o jx82gpt jx82gpt.go`
 + esegui con `./jx82gpt -i `
 
