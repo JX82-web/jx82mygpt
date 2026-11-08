@@ -22,13 +22,13 @@ Per scaricare e aggiungere un modello al tuo catalogo locale (operazione di *pul
 <details>
    <summary>📒 #### Se vuoi cambiare modello di AI direttamente nel codice: 📒 (click to expand) </summary>
 
-+ Nel codice sorgente (jx82gpt.go) scorri fino alla funzione main `func main()`
-+ trova la stringa `modelFlag := flag.String("m", "devstral:24", "Modello Ollama da utilizzare")`
-+ Iserisci il modello da te scelto con `ollama` , flag.String("m", "Inserisci qui  il nuovo modello", "Modello Ollama da utilizzare")
-+ Di Default esce con devstral:24b, installabile tramite  comando da terminale `ollama run (Default: devstral:24b`
-+ Aspetta che il modello sia scaricato, attendi 20 secondi dopo la sua installazione
-+ Salva e compila con `go build -o jx82gpt jx82gpt.go`
-+ esegui con `./jx82gpt -i `
+- [x] Nel codice sorgente (jx82gpt.go) scorri fino alla funzione main `func main()`
+- [x] trova la stringa `modelFlag := flag.String("m", "devstral:24", "Modello Ollama da utilizzare")`
+- [x] Iserisci il modello da te scelto con `ollama` , flag.String("m", "Inserisci qui  il nuovo modello", "Modello Ollama da utilizzare")
+- [x] Di Default esce con devstral:24b, installabile tramite  comando da terminale `ollama run (Default: devstral:24b`
+- [x] Aspetta che il modello sia scaricato, attendi 20 secondi dopo la sua installazione
+- [x] Salva e compila con `go build -o jx82gpt jx82gpt.go`
+- [x] esegui con `./jx82gpt -i `
 
 </details>
 
