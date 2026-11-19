@@ -19,6 +19,10 @@ type ChatMessage struct {
 	Role    string `json:"role"`
 	Content string `json:"content"`
 }
+type Options struct {
+	Temperature float64 `json:"temperature"` // <-- Aggiunto: blocco parametri letto da Ollama
+	NumCtx      int     `json:"num_ctx"`     // <-- Aggiunto: estende la memoria da 2048 a 8192 token
+}
 
 type ChatRequest struct {
 	Model       string        `json:"model"`
