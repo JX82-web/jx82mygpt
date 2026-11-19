@@ -257,7 +257,7 @@ func defaultConfig() *Config {
 	return &Config{
 		Provider:        "ollama",
 		Model:           defaultOllamaModel,
-		OllamaURL:       "http://192.168.232.1:11434",
+		OllamaURL:       "http://127.0.0.1:11434",
 		Temperature:     0.1,
 		TimeoutSeconds:  600,
 		ShellTimeoutSec: 300,
