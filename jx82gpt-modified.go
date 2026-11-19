@@ -282,7 +282,6 @@ func checkAndRunTextCommand(text string) {
 func streamResponse(model string, messages []ChatMessage) string {
 	payload := ChatRequest{
 		Model:       model,
-		Temperature: 0.1,
 		Stream:      true,
 		Messages:    messages,
 		Options: Options{
