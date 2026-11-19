@@ -285,6 +285,10 @@ func streamResponse(model string, messages []ChatMessage) string {
 		Temperature: 0.1,
 		Stream:      true,
 		Messages:    messages,
+		Options: Options{
+			Temperature: 0.1,
+			NumCtx:      8192,
+		},
 	}
 
 	if len(hexstrikeTools) > 0 {
