@@ -27,7 +27,7 @@ type Options struct {
 type ChatRequest struct {
 	Model       string        `json:"model"`
 	Messages    []ChatMessage `json:"messages"`
-	Temperature float64       `json:"temperature"`
+	Options  Options		  `json:"options"`
 	Stream      bool          `json:"stream"`
 	Tools       []interface{} `json:"tools,omitempty"`
 }
