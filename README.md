@@ -1,8 +1,7 @@
 # 🚀 jx82mygpt - Cybersecurity AI Agent CLI
 ___
 
-<details>
-   <summaary>README</summaary>
+<details><summaary>README</summaary>
 
 - [x]  _impostazioni e setub da seguire per configurare al meglio il progetto_
 - [x]  _PER NVIDIA 5070 TI 32 GB RAM (DDR4/DDR5), RYZON 7 5800X/5800X3D_
