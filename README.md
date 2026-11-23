@@ -1,7 +1,8 @@
 # 🚀 jx82mygpt - Cybersecurity AI Agent CLI
 ___
 
-<details><summaary>README</summaary>
+<details>
+   <summaary>README</summaary>
 
 - [x]  _impostazioni e setub da seguire per configurare al meglio il progetto_
 - [x]  _PER NVIDIA 5070 TI 32 GB RAM (DDR4/DDR5), RYZON 7 5800X/5800X3D_
@@ -12,6 +13,7 @@ ___
 - [X]  _  VAI SU OPTIONS E AUMENTA DA:8192  -> A: 32768
 
 </details>
+---
 
 Benvenuto in **jx82mygpt**, un assistente avanzato per la sicurezza informatica basato su linea di comando (CLI) sviluppato in **Go**. Lo strumento emula l'interfaccia nativa di `tgpt`, offre un'interazione in streaming in tempo reale e si interfaccia direttamente con i modelli locali tramite **Ollama**. 
 
