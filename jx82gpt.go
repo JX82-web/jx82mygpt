@@ -286,7 +286,7 @@ func streamResponse(model string, messages []ChatMessage) string {
 		Messages:    messages,
 		Options: Options{
 			Temperature: 0.6,
-			NumCtx:      8192,
+			NumCtx:     32768,
 		},
 	}
 
