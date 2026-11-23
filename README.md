@@ -13,6 +13,7 @@
 
 </detail>
 
+
 ---
 
 Benvenuto in **jx82mygpt**, un assistente avanzato per la sicurezza informatica basato su linea di comando (CLI) sviluppato in **Go**. Lo strumento emula l'interfaccia nativa di `tgpt`, offre un'interazione in streaming in tempo reale e si interfaccia direttamente con i modelli locali tramite **Ollama**. 
