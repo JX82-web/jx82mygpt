@@ -383,7 +383,7 @@ func (c *ollamaClient) Chat(ctx context.Context, msgs []Message, onToken func(st
 		"stream":   true,
 		"options": map[string]any{
 			"temperature": c.temp,
-			"num_ctx":     8192,
+			"num_ctx":    32768,
 		},
 	})
 	req, err := http.NewRequestWithContext(ctx, http.MethodPost, c.url+"/api/chat", bytes.NewReader(body))
