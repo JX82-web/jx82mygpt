@@ -1,10 +1,10 @@
 # 🚀 jx82mygpt - Cybersecurity AI Agent CLI
 
-<details>
-   <summaary>⚠️IMPORTANT, README</summaary>
-   
-- [x]  *_impostazioni e setub da seguire per configurare al meglio il progetto_
-- [x] *_PER NVIDIA 5070 TI 32 GB RAM (DDR4/DDR5), RYZON 7 5800X/5800X3D_
+<details>⚠️IMPORTTANT (Click to expand)
+   <summaary>README</summaary>
+
+- [x]  >*_impostazioni e setub da seguire per configurare al meglio il progetto_
+- [x] >*_PER NVIDIA 5070 TI 32 GB RAM (DDR4/DDR5), RYZON 7 5800X/5800X3D_
 - [X] *_APRI OLLAMA DALL'ICONA IN BASSO A DESTRA VICINO L'OROLOGIO (SE GIA AVVIATA), CLI DESTRO E SELEZIONA SETTING._
 - [X] *_PORT IL CONTET-LENGHT A 32K (TRASINA LA BARRA CON IL CORSORE VERSO DESTRA FINO A 32K)
 - [X] *_SALVA E RIAVVIA OLLAMA
