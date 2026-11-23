@@ -10,8 +10,10 @@
 - [X] *_SALVA E RIAVVIA OLLAMA
 - [X] *_PER CHI A GIA SCARICATO IL SORGENTE AUMENTARE LA TEMPERATURA DA TEMPERATURE 0.1 A 0.6
 - [X] *_  VAI SU OPTIONS E AUMENTA DA:8192  -> A: 32768
+
 </details>
  
+___
 
 Benvenuto in **jx82mygpt**, un assistente avanzato per la sicurezza informatica basato su linea di comando (CLI) sviluppato in **Go**. Lo strumento emula l'interfaccia nativa di `tgpt`, offre un'interazione in streaming in tempo reale e si interfaccia direttamente con i modelli locali tramite **Ollama**. 
 
@@ -54,6 +56,7 @@ ollama run qwen2.5-coder:14b
 
 # Sincronizza ed esegui il modello cybersecurity senza censure (7B)
 ollama run whiterabbitneo:7b
+
 ```
 *Nota: Il comando `run` verifica se il modello è presente sul disco; se non esiste, avvia automaticamente il download dei layer prima di caricare la chat.*
 
