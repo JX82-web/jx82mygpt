@@ -1,7 +1,7 @@
 # 🚀 jx82mygpt - Cybersecurity AI Agent CLI
 
-<h3>
-   <summaary>README</summaary>
+<detail>
+<h3><summaary>README</summaary></h3>
 
 - [x]  _impostazioni e setub da seguire per configurare al meglio il progetto_
 - [x]  _PER NVIDIA 5070 TI 32 GB RAM (DDR4/DDR5), RYZON 7 5800X/5800X3D_
@@ -11,7 +11,7 @@
 - [X]  _PER CHI A GIA SCARICATO IL SORGENTE AUMENTARE LA TEMPERATURA DA TEMPERATURE 0.1 A 0.6
 - [X]  _VAI SU OPTIONS E AUMENTA DA:8192  -> A: 32768
 
-</h3>
+</detail>
 
 ---
 
