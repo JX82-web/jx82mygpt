@@ -1,7 +1,7 @@
 # 🚀 jx82mygpt - Cybersecurity AI Agent CLI
 ___
 
-<details>⚠️IMPORTTANT (Click to expand)
+⚠️IMPORTTANT (Click to expand)
    <summaary>README</summaary>
 
 - [x]  >*_impostazioni e setub da seguire per configurare al meglio il progetto_
@@ -12,8 +12,6 @@ ___
 - [X] *_PER CHI A GIA SCARICATO IL SORGENTE AUMENTARE LA TEMPERATURA DA TEMPERATURE 0.1 A 0.6
 - [X] *_  VAI SU OPTIONS E AUMENTA DA:8192  -> A: 32768
 
-</details>
- 
 ___
 
 Benvenuto in **jx82mygpt**, un assistente avanzato per la sicurezza informatica basato su linea di comando (CLI) sviluppato in **Go**. Lo strumento emula l'interfaccia nativa di `tgpt`, offre un'interazione in streaming in tempo reale e si interfaccia direttamente con i modelli locali tramite **Ollama**. 
